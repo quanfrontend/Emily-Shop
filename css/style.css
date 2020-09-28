@@ -262,7 +262,7 @@
 .title__ .show_all {
   text-decoration: none;
   color: #fff;
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .title__ .show_all:hover {
@@ -287,7 +287,7 @@
 }
 
 .menu .row .col {
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .menu .row .col:hover {
@@ -342,7 +342,7 @@
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 80px 0;
+  padding: 80px 10px;
 }
 
 .menu .row .col .time-sale p {
@@ -362,7 +362,8 @@
 }
 
 @media screen and (max-width: 795px) {
-  .content__product h6, .item__content .price {
+  .content__product h6,
+  .item__content .price {
     font-size: 14px;
   }
   .content__product {
@@ -380,7 +381,8 @@
   .infomation {
     font-size: 16px;
   }
-  .address, .phone {
+  .address,
+  .phone {
     font-size: 12px;
   }
   .col .icon .icon_item {
@@ -402,7 +404,9 @@
 }
 
 @media screen and (max-width: 625px) {
-  .content__product h6, .item__content .price, .item__content .eyes {
+  .content__product h6,
+  .item__content .price,
+  .item__content .eyes {
     font-size: 12px;
   }
   .content__product h6 {
@@ -475,11 +479,24 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .time-sale h1 {
+    font-size: 14px;
+  }
+  .menu .row .col .time-sale p {
+    font-size: 10px !important;
+  }
+  .row .col .time-sale {
+    padding: 10px 0 !important;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .content__product h6 {
     font-size: 8px;
   }
-  .item__content .price, .item__content .eyes {
+  .item__content .price,
+  .item__content .eyes {
     font-size: 6px;
   }
   .title__ {
@@ -492,10 +509,10 @@
     font-size: 9px;
   }
   .time-sale h1 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .menu .row .col .time-sale p {
-    font-size: 10px !important;
+    font-size: 8px !important;
   }
   .row .col .time-sale {
     padding: 10px 0 !important;
@@ -514,7 +531,7 @@ footer .inner-width {
   margin: 0 5px;
   font-size: 24px;
   color: #fff;
-  transition: .2s linear;
+  transition: 0.2s linear;
 }
 
 .icon .fa-facebook-square:hover {
@@ -571,19 +588,22 @@ footer .inner-width {
 }
 
 @media screen and (max-width: 795px) {
-  .dropdown .btn, .dropdown-item {
+  .dropdown .btn,
+  .dropdown-item {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .dropdown .btn, .dropdown-item {
+  .dropdown .btn,
+  .dropdown-item {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .dropdown .btn, .dropdown-item {
+  .dropdown .btn,
+  .dropdown-item {
     font-size: 8px;
   }
 }
