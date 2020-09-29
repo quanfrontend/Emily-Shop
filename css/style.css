@@ -359,8 +359,7 @@
 }
 
 @media screen and (max-width: 795px) {
-  .content__product h6,
-  .item__content .price {
+  .content__product h6, .item__content .price {
     font-size: 14px;
   }
   .content__product {
@@ -378,8 +377,7 @@
   .infomation {
     font-size: 16px;
   }
-  .address,
-  .phone {
+  .address, .phone {
     font-size: 12px;
   }
   .col .icon .icon_item {
@@ -410,9 +408,7 @@
 }
 
 @media screen and (max-width: 625px) {
-  .content__product h6,
-  .item__content .price,
-  .item__content .eyes {
+  .content__product h6, .item__content .price, .item__content .eyes {
     font-size: 12px;
   }
   .content__product h6 {
@@ -451,7 +447,7 @@
     font-size: 14px !important;
   }
   .row .col .time-sale {
-    padding: 50px 10px !important;
+    padding: 40px 10px !important;
   }
 }
 
@@ -497,8 +493,7 @@
   .content__product h6 {
     font-size: 8px;
   }
-  .item__content .price,
-  .item__content .eyes {
+  .item__content .price, .item__content .eyes {
     font-size: 6px;
   }
   .title__ {
@@ -516,6 +511,9 @@
   .menu .row .col .time-sale p {
     font-size: 6px !important;
     margin-bottom: 10px !important;
+  }
+  .row .col .time-sale {
+    padding: 30px 10px !important;
   }
 }
 
@@ -588,22 +586,19 @@ footer .inner-width {
 }
 
 @media screen and (max-width: 795px) {
-  .dropdown .btn,
-  .dropdown-item {
+  .dropdown .btn, .dropdown-item {
     font-size: 12px;
   }
 }
 
 @media screen and (max-width: 540px) {
-  .dropdown .btn,
-  .dropdown-item {
+  .dropdown .btn, .dropdown-item {
     font-size: 10px;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .dropdown .btn,
-  .dropdown-item {
+  .dropdown .btn, .dropdown-item {
     font-size: 8px;
   }
 }
